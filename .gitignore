@@ -10,3 +10,4 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+export-members/members_export.csv
