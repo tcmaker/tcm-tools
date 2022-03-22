@@ -42,6 +42,6 @@ func main() {
 		personData := make(map[string]string)
 		json.Unmarshal([]byte(body), &personData)
 
-		log.Println(personData["given_name"] + " " + personData["family_name"] + " - " + personData["email"] + " - " + personData["phone_number"])
+		log.Println(personData["email"] + "," + personData["given_name"] + "," + personData["family_name"] + "," + personData["address"])
 	}
 }
